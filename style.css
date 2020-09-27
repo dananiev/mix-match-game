@@ -211,4 +211,19 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    .text-start {
+        font-size: 100px;
+        width: 180px;
+    }
+
+    .text-game-over {
+        font-size: 100px;
+        margin-left: 20px;
+    }
+
+    .text-win {
+        font-size: 80px;
+        margin-left: 100px;
+    }
 }
