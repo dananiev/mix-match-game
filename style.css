@@ -202,6 +202,26 @@ body {
     }
 }
 
+@media screen and (min-width: 600px) {
+    .text-start {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .text-game-over {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .text-win {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .game-container {
         grid-template-columns: repeat(2, auto);
@@ -213,17 +233,20 @@ body {
     }
 
     .text-start {
-        font-size: 100px;
-        width: 180px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .text-game-over {
-        font-size: 100px;
-        margin-left: 20px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .text-win {
-        font-size: 80px;
-        margin-left: 100px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
